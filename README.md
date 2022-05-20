@@ -3,28 +3,28 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T1090375)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# Product/Platform - Task
 
-This is the repository template for creating new examples. Describe the solved task here.
+# WinUI Data Grid in MVVM Scenarios
 
-Put a screenshot that illustrates the result here.
+This example demonstrates how to use our MVVM techniques in the WinUI [Data Grid](http://docs.devexpress.com/WinUI/102040/controls/data-grid). The example shows how to do the following:
 
-Then, add implementation details (steps, code snippets, and other technical information in a free form), or add a link to an existing document with implementation details. 
+* Bind the Data Grid’s [ItemsSource](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.DataControlBase.ItemsSource) property to a collection in a view model.
+* Specify grid columns in a view model and display them in the Data Grid.
+* Access the Data Grid’s selected items from the view model.
+* Convert the Data Grid’s events to commands in a view model.
 
 ## Files to Look At
 
-- link.cs (VB: link.vb)
-- link.js
-- ...
+- [MainWindow.xaml](./CS/WinUIMVVMGrid/WinUIMVVMGrid/MainWindow.xaml)
+- [ViewModel.cs](./CS/WinUIMVVMGrid/WinUIMVVMGrid/ViewModel.cs)
 
 ## Documentation
 
-- link
-- link
-- ...
+- [MVVM Column Generation](http://docs.devexpress.com/WinUI/403856/controls/data-grid/grid-columns/mvvm-columns)
+- [DataControlBase.SelectedItems](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.DataControlBase.SelectedItems)
+- [MVVM Framework](http://docs.devexpress.com/WinUI/102569/mvvm-framework)
 
 ## More Examples
 
-- link
-- link
-- ...
+- [WinUI Data Grid - Bind to a Collection of Columns Specified in a ViewModel](https://github.com/DevExpress-Examples/winui-grid-mvvm-columns)
+- [WinUI Data Grid - Get Started](https://github.com/DevExpress-Examples/winui-grid-get-started)
