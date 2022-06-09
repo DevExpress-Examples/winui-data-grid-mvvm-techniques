@@ -20,7 +20,7 @@ This example demonstrates how to use our MVVM techniques in the WinUI [Data Grid
 
 ## Documentation
 
-- [MVVM Column Generation](http://docs.devexpress.com/WinUI/403856/controls/data-grid/grid-columns/mvvm-columns)
+- [MVVM Column Generation](http://docs.devexpress.com/WinUI/403856/controls/data-grid/grid-columns/mvvm-columns?v=22.1)
 - [DataControlBase.SelectedItems](http://docs.devexpress.com/WinUI/DevExpress.WinUI.Grid.DataControlBase.SelectedItems)
 - [MVVM Framework](http://docs.devexpress.com/WinUI/102569/mvvm-framework)
 
